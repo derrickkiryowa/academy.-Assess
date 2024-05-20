@@ -1,0 +1,68 @@
+body{
+  font-family: Agency FB, Tahoma, Arial, Calibri;
+}
+
+img{
+  margin: 0%;
+  width: 100%;
+  background-color: RGB(12, 95, 82);;
+}
+h2{
+  text-align: center;
+  color: RGB(12, 95, 82);
+}
+.container{
+  border: 3px solid RGB(12, 95, 82);
+}
+.container input{
+  border: 1px solid RGB(12, 95, 82);
+}
+.container-image{
+  background-color: RGB(12, 95, 82);;
+}
+.success{
+  text-align: center;
+  color: white;
+  background-color: lawngreen;
+}
+.message{
+  text-align: center;
+  color: white;
+}
+.error{
+  color: white;
+  text-align: center;
+  background-color: red;
+}
+/*input:invalid{
+  border: 1px solid red;
+}
+select:invalid{
+  border: 1px solid red;
+}
+input:valid{
+  border: 1px solid green;
+}
+*/
+.regb{
+  background-color: RGB(12, 95, 82);
+  float:right;
+  color: aliceblue;
+}
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.form-group {
+  flex: 1;
+  min-width: 45%;
+  display: inline-block; /* Adjust as needed */
+}
+.form-group label {
+  color: RGB(12, 95, 82);
+  display: block;
+  margin-bottom: 0.5em;
+  
+}
